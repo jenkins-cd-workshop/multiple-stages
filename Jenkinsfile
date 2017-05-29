@@ -4,7 +4,7 @@ node {
     }
     
     stage "Run tests", {
-        sh "python -m unittest test.py"
+        sh "python -m unittest test"
     }
     
     stage "Deploy", {
